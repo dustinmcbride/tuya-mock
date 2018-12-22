@@ -1,4 +1,4 @@
-# tuya-mock
+# TuyaMock
 
 Mock a Tuya wifi switch for development purposes.
 
@@ -12,15 +12,15 @@ npm i tuya-mock -g
 
 ## Running
 
-There are three ways to start tuya-mock
+There are three ways to start TuyaMock
 
-Supply tuya-mock directly with the required API key
+Supply TuyaMock directly with the required API key
 
 ```
 $ tuya-mock -k [your-api-key]
 ```
 
-Provide tuya-mock with the name of an environment variable where your api key is stored
+Provide `tuya-mock` with the name of an environment variable where your api key is stored
 ```
 $ tuya-mock -e [YOUR_ENV_VAR_NAME]
 ```
@@ -35,7 +35,7 @@ For help
 $ tuya-mock -h
 ````
 
-Tuya-mock will run with the following default values but can be changed via the command line
+TuyaMock will run with the following default values but can be changed via the command line
 - Tuya Api Version : 3.1
 - Number of physical DPS's (switches) : 5
 

@@ -11,7 +11,7 @@
     "postinstall": "npm run build"
   },
   "preferGlobal": true,"bin": {
-    "mock-tuya": "./bin/mock-tuya.js"
+    "tuya-mock": "./bin/tuya-mock.js"
   },
   "keywords": [
     "tuya",
