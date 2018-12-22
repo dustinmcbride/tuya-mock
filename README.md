@@ -47,7 +47,7 @@ After the app is running you will see a chart of the intial state of the mocked 
 Pressing a number key will toggle the state of the corresponding mock switch.
 
 ### Locking a mock switch
-Pressing shift and the number will lock the switch. A locked swith cannont be updated by the api.
+Pressing shift and the number will lock the switch. A locked swith cannot be updated by the api.
 
 ### Help
 Press `?` for the in app help message.
