@@ -25,7 +25,7 @@ Provide `tuya-mock` with the name of an environment variable where your api key 
 $ tuya-mock -e [YOUR_ENV_VAR_NAME]
 ```
 
-Lastly tuya-mock will look for the environment variable named `TUYA_LOCAL_KEY`
+Lastly, if no key or environment variable name is provided tuya-mock will look for the environment variable named `TUYA_LOCAL_KEY`
 ````
 $ tuya-mock
 ````
