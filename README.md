@@ -41,7 +41,7 @@ TuyaMock will run with the following default values but can be changed via the c
 
 ## Usage
 
-After the app is running you will see a chart of the intial state of the mocked tuya device. Each time the state is updated the chart will be printed to the console.
+Once the app is started you will see a table with the intial state of the mocked tuya device. When the state is updated the table will be printed to the console.
 
 ### Toggle a mock switch
 Pressing a number key will toggle the state of the corresponding mock switch.
