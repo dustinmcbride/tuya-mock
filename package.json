@@ -1,0 +1,37 @@
+{
+  "name": "tuya-mock",
+  "version": "1.0.0",
+  "description": "Mock a Tuya wifi switch for development",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run babel-node ./src/index.js --",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-node": "./node_modules/@babel/node/bin/babel-node.js",
+    "build": "./node_modules/@babel/cli/bin/babel.js src --out-dir build",
+    "postinstall": "npm run build"
+  },
+  "preferGlobal": true,"bin": {
+    "mock-tuya": "./bin/mock-tuya.js"
+  },
+  "keywords": [
+    "tuya",
+    "mock"
+  ],
+  "author": "Dustin McBride <dustinbm@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.5",
+    "debug": "^4.1.0",
+    "keypress": "^0.2.1",
+    "moment": "^2.23.0",
+    "tuyapi": "^3.1.5"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.2.0",
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2"
+  }
+}
