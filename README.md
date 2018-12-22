@@ -47,7 +47,7 @@ After the app is running you will see a chart of the intial state of the mocked 
 Pressing a number key will toggle the state of the corresponding mock switch.
 
 ### Locking a mock switch
-Pressing shift and the number will lock the switch. A locked swith cannot be updated by the api.
+Pressing shift and the number will lock the switch. A locked swith cannot be updated by an incoming request.
 
 ### Help
 Press `?` for the in app help message.
@@ -58,7 +58,7 @@ Press `?` for the in app help message.
 - This is still a crude implementation. Responses are approximate but good for basic use cases
 
 ## Todo
-- Support persistent connection
+- Support a persistent connection
 - Tests!!!!
 - Add hot keys to toggle print response/request messages to the console.
 
