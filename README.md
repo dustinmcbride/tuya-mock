@@ -25,7 +25,7 @@ Provide `tuya-mock` with the name of an environment variable where your api key 
 $ tuya-mock -e [YOUR_ENV_VAR_NAME]
 ```
 
-Lastly tuya-mock will look for the environment variable named `TUYA_LOCAL_KEY`
+Lastly, if no key or environment variable name is provided tuya-mock will look for the environment variable named `TUYA_LOCAL_KEY`
 ````
 $ tuya-mock
 ````
@@ -41,13 +41,13 @@ TuyaMock will run with the following default values but can be changed via the c
 
 ## Usage
 
-After the app is running you will see a chart of the intial state of the mocked tuya device. Each time the state is updated the chart will be printed to the console.
+Once the app is started you will see a table with the intial state of the mocked tuya device. When the state is updated the table will be printed to the console.
 
 ### Toggle a mock switch
 Pressing a number key will toggle the state of the corresponding mock switch.
 
 ### Locking a mock switch
-Pressing shift and the number will lock the switch. A locked swith cannont be updated by the api.
+Pressing shift and the number will lock the switch. A locked swith cannot be updated by an incoming request.
 
 ### Help
 Press `?` for the in app help message.
@@ -58,7 +58,7 @@ Press `?` for the in app help message.
 - This is still a crude implementation. Responses are approximate but good for basic use cases
 
 ## Todo
-- Support persistent connection
+- Support a persistent connection
 - Tests!!!!
 - Add hot keys to toggle print response/request messages to the console.
 
