@@ -18,6 +18,14 @@
     "tuya",
     "mock"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dustinmcbride/tuya-mock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dustinmcbride/tuya-mock/issues"
+  },
+  "homepage": "https://github.com/dustinmcbride/tuya-mock#readme",
   "author": "Dustin McBride <dustinbm@gmail.com>",
   "license": "ISC",
   "dependencies": {
