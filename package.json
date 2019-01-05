@@ -1,6 +1,6 @@
 {
   "name": "tuya-mock",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Mock a Tuya wifi switch for development",
   "main": "index.js",
   "scripts": {
