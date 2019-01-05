@@ -1,6 +1,6 @@
 {
   "name": "tuya-mock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mock a Tuya wifi switch for development",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,8 @@
     "build": "./node_modules/@babel/cli/bin/babel.js src --out-dir build",
     "postinstall": "npm run build"
   },
-  "preferGlobal": true,"bin": {
+  "preferGlobal": true,
+  "bin": {
     "tuya-mock": "./bin/tuya-mock.js"
   },
   "keywords": [
