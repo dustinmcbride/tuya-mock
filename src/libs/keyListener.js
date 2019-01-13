@@ -29,12 +29,12 @@ process.stdin.on('keypress', function (ch, key) {
 
   if (lockKeyMap[ch]) {
     tuyaState.toggleDpsLock(lockKeyMap[ch])
-    displayChart();
+    displayChart(tuyaState);
   }
 
   if (tuyaState.getState().hasOwnProperty(ch)) {
     tuyaState.toggleDps(ch)
-    displayChart();
+    displayChart(tuyaState);
   }
 
 });
